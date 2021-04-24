@@ -294,6 +294,7 @@ a {
 }
 #world .worldRight img {
     height: 100px;
+    width: 120px;
 }
 #world .worldRight .worldTitle {
     height: 60px;
