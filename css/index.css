@@ -156,6 +156,7 @@ a {
 #accessory {
     height: 950px;
     background-color: #F6F6F6;
+    overflow: hidden;
 }
 
 #accessory .accTop {
@@ -255,4 +256,78 @@ a {
 }
 #accessory .accRight div:last-child img {
     height: 241px;
+}
+
+/*精选OPPO页面搜索*/
+#world {
+    height: 700px;
+    /*clear: both;*/
+    /*overflow: hidden;*/
+    background-color: #EAEAEA;
+}
+#world .worldTop {
+    text-align: center;
+    margin: 20px 0px;
+}
+#world .worldMain {
+    width: 1214px;
+    margin: 10px auto;
+}
+#world .worldLeft {
+    width: 800px;
+}
+#world .worldLeft div {
+    float: left;
+    margin: 10px;
+    border-bottom: 3px solid #EAEAEA;
+    transition: all .3s;
+}
+#world .worldLeft div:hover {
+    border-bottom: 3px solid #00925F;
+    transform: translateY(-10px);
+}
+#world .worldRight {
+    width: 400px;
+    height: 566px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+#world .worldRight img {
+    height: 100px;
+}
+#world .worldRight .worldTitle {
+    height: 60px;
+}
+#world .worldRight .worldTitle div{
+    width: 200px;
+    height: 60px;
+    background-color: #EAEAEA;
+    text-align: center;
+    line-height: 60px;
+    float: left;
+    border-top: 3px solid #EAEAEA;
+}
+#world .worldRight .worldTitle div:first-child {
+    border-top: 3px solid #00925F;
+    background-color: #fff;
+}
+#world .worldRight ul li{
+    background-color: #EAEAEA;
+    margin: 20px 10px;
+}
+#world .worldRight dl {
+    width: 380px;
+    height: 100px;
+    position: relative;
+    box-sizing: border-box;
+}
+#world .worldRight dl dt{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#world .worldRight dl dd {
+    position: absolute;
+    top: 20px;
+    left: 140px;
 }
