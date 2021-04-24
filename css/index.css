@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 14px;
 }
 
 ol, ul {
@@ -149,4 +150,109 @@ a {
     height: 450px;
     border-left: 1px solid #EAEAEA;
     margin: 0 10px;
+}
+
+/*设置精选配件部分样式*/
+#accessory {
+    height: 950px;
+    background-color: #F6F6F6;
+}
+
+#accessory .accTop {
+    text-align: center;
+    margin: 20px 0px;
+}
+#accessory .accMain {
+    width: 1090px;
+    margin: 10px auto;
+}
+#accessory .accLeft {
+    width: 540px;
+    height: 950px;
+    /*border: 2px solid #000;*/
+}
+#accessory .accLeft>div {
+    float: left;
+    border-bottom: 3px solid #EAEAEA;
+    margin: 10px;
+    transition: all .3s;
+}
+#accessory .accLeft>div:hover{
+    border-bottom: 3px solid #00925F;
+    transform: translateY(-10px);
+}
+#accessory .accLeft img {
+    width: 250px;
+}
+#accessory .accLeft>div:last-child img {
+    width: 520px;
+}
+#accessory .accAll {
+    width: 250px;
+    height: 250px;
+    border: 3px solid #EAEAEA;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#accessory .accAll p:first-child{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+#accessory .accAll li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+#accessory .accAll li:hover{
+    color: #00925F
+}
+#accessory .accAll .line {
+    width: 150px;
+    height: 0;
+    border-top: 1px solid #ccc;
+    clear: both;
+    margin: 15px auto
+}
+#accessory .accAll p:last-child {
+    text-align: center;
+}
+#accessory .accAll p:last-child:hover {
+    color: #00925F;
+}
+#accessory .accAll span {
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("../img/bgi/icons.png") no-repeat -177px -1014px;
+    margin-left: 10px;
+}
+#accessory .accRight {
+    width: 540px;
+}
+#accessory .accRight div{
+    float: left;
+    margin: 10px;
+    border-bottom: 3px solid #EAEAEA;
+    transition: all .3s;
+}
+#accessory .accRight div:hover {
+    border-bottom: 3px solid #00925F;
+    transform: translateY(-10px);
+}
+#accessory .accRight img {
+    width: 250px;
+}
+#accessory .accRight div:first-child img {
+    width: 520px;
+    height: 250px;
+}
+#accessory .accRight div:last-child img {
+    height: 241px;
 }
