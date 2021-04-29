@@ -332,3 +332,49 @@ a {
     top: 20px;
     left: 140px;
 }
+/*页面服务*/
+#serve {
+    height: 100px;
+    background-color: #FFF;
+}
+#serve dl {
+    width: 200px;
+    height: 100px;
+    /*border: 1px solid #000;*/
+    position: relative;
+}
+#serve dt{
+    width: 41px;
+    height: 41px;
+    background: url("../img/bgi/f1.jpg") no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+#serve dl .dd1{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    font-weight: bold;
+}
+#serve dl .dd2 {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    color: #aaa;
+    font-size: 12px;
+}
+#serve li {
+    float: left;
+    margin: 0px 10px;
+    transition: all .3s;
+}
+#serve ul {
+    width: 1110px;
+    margin: 0px auto;
+    height: 100px;
+    border-bottom: 1px solid #666;
+}
+#serve li:hover {
+    transform: translateY(-10px);
+}
