@@ -429,3 +429,26 @@ a {
     vertical-align: middle;
     margin-right: 10px;
 }
+/*底部*/
+#footer {
+    height: 40px;
+    background-color: #2d2d2d;
+}
+#footer p {
+    line-height: 40px;
+
+}
+#footer img {
+    margin-left: 20px;
+}
+#footer p span {
+    color: #828282;
+    margin: 0px 200px 0px 20px;
+}
+#footer p a {
+    color: #fff;
+    margin: 0px 10px;
+}
+#footer p a:hover {
+    color: #00925F;
+}
