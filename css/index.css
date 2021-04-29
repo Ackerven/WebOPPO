@@ -20,11 +20,11 @@ a {
 #top, #header, #nav, #banner, #star, #accessory, #world, #serve, #afterSale, #footer {
     height: 100px;
     width: 100%;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
 }
 .container {
     width: 1280px;
-    border: 1px solid #f00;
+    /*border: 1px solid #f00;*/
     margin: 0 auto;
 }
 /*设置页面顶部的样式*/
@@ -264,6 +264,7 @@ a {
     /*clear: both;*/
     /*overflow: hidden;*/
     background-color: #EAEAEA;
+    overflow: hidden;
 }
 #world .worldTop {
     text-align: center;
@@ -372,8 +373,8 @@ a {
 #serve ul {
     width: 1110px;
     margin: 0px auto;
-    height: 100px;
-    border-bottom: 1px solid #666;
+    height: 99px;
+    border-bottom: 1px solid #333;
 }
 #serve li:hover {
     transform: translateY(-10px);
@@ -389,7 +390,7 @@ a {
     padding-top: 20px;
 }
 #afterSale ul li{
-    width: 160px;
+    width: 140px;
     float: left;
     text-align: center;
     margin: 0px 20px;
@@ -399,6 +400,18 @@ a {
 }
 #afterSale ol>li:first-child a {
     font-weight: bold;
+}
+#afterSale ul li ol li a:hover{
+    color: #00925F;
+}
+#afterSale ul>li:last-child {
+    width: 200px;
+}
+#afterSale ul>li:last-child ol li {
+    width: 230px;
+}
+#afterSale ul>li:last-child ol li p{
+    margin-left: 60px;
 }
 #afterSale .xl{
     width: 21px;
@@ -410,8 +423,7 @@ a {
 }
 #afterSale .phone {
     color: #00925F;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 24px;
 }
 #afterSale .tell{
     width: 32px;
@@ -420,7 +432,9 @@ a {
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
+    float: left;
 }
+
 #afterSale .online {
     width: 32px;
     height: 32px;
@@ -428,6 +442,7 @@ a {
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
+    float: left;
 }
 /*底部*/
 #footer {
@@ -436,7 +451,6 @@ a {
 }
 #footer p {
     line-height: 40px;
-
 }
 #footer img {
     margin-left: 20px;
