@@ -378,3 +378,54 @@ a {
 #serve li:hover {
     transform: translateY(-10px);
 }
+/*售后服务*/
+#afterSale {
+    height: 200px;
+    background-color: #fff;
+}
+#afterSale ul {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+#afterSale ul li{
+    width: 160px;
+    float: left;
+    text-align: center;
+    margin: 0px 20px;
+}
+#afterSale ol>li{
+    line-height: 30px;
+}
+#afterSale ol>li:first-child a {
+    font-weight: bold;
+}
+#afterSale .xl{
+    width: 21px;
+    height: 17px;
+    background: url("../img/bgi/i-h-sinawb.png") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+#afterSale .phone {
+    color: #00925F;
+    font-size: 16px;
+    font-weight: bold;
+}
+#afterSale .tell{
+    width: 32px;
+    height: 32px;
+    background: url("../img/bgi/contact_1.jpg") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#afterSale .online {
+    width: 32px;
+    height: 32px;
+    background: url("../img/bgi/contact_2.jpg") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
