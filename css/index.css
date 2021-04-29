@@ -344,10 +344,42 @@ a {
     /*border: 1px solid #000;*/
     position: relative;
 }
-#serve dt{
-    width: 41px;
-    height: 41px;
+#serve #dt1{
+    width: 43px;
+    height: 43px;
     background: url("../img/bgi/f1.jpg") no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+#serve #dt2{
+    width: 43px;
+    height: 43px;
+    background: url("../img/bgi/f2.jpg") no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+#serve #dt3{
+    width: 43px;
+    height: 43px;
+    background: url("../img/bgi/f3.jpg") no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+#serve #dt4{
+    width: 43px;
+    height: 43px;
+    background: url("../img/bgi/f4.jpg") no-repeat;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+#serve #dt5{
+    width: 43px;
+    height: 43px;
+    background: url("../img/bgi/f5.jpg") no-repeat;
     position: absolute;
     top: 30px;
     left: 10px;
@@ -421,11 +453,36 @@ a {
     vertical-align: middle;
     margin-right: 2px;
 }
-#afterSale .phone {
+#afterSale .tx{
+    width: 21px;
+    height: 17px;
+    /*background: url("../img/bgi/i-h-sinawb.png") no-repeat;*/
+    background: url("../img/bgi/i-h-qqwb.png") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+#afterSale .rr{
+    width: 21px;
+    height: 17px;
+    background: url("../img/bgi/i-h-sinawb.png") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+#afterSale .qq{
+    width: 21px;
+    height: 17px;
+    background: url("../img/bgi/i-h-sinawb.png") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+#afterSale .ContactMe {
     color: #00925F;
     font-size: 24px;
 }
-#afterSale .tell{
+#afterSale .ContactMeTel{
     width: 32px;
     height: 32px;
     background: url("../img/bgi/contact_1.jpg") no-repeat;
@@ -435,7 +492,7 @@ a {
     float: left;
 }
 
-#afterSale .online {
+#afterSale .ContactMeOnline {
     width: 32px;
     height: 32px;
     background: url("../img/bgi/contact_2.jpg") no-repeat;
