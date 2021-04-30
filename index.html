@@ -386,8 +386,9 @@
 			</div>
 		</div>
 <!--		返回顶部-->
-		<div id="totop">
-			<a href="javascript:;" id="btn"></a>
+		<div id="toTop">
+			<a href="javascript:;" id="btn">
+			</a>
 		</div>
 		<script type="text/javascript" src="./js/swiper.js" ></script>
 		<script type="text/javascript" src="./js/jquery-1.11.3.js" ></script>
@@ -433,7 +434,7 @@
 						var backTop = document.documentElement.scrollTop || document.body.scrollTop;
 						//越滚越慢
 						var speedTop = backTop / 5;
-						document.documentElement.scrollTop -= backTop - speedTop;
+						document.documentElement.scrollTop = backTop - speedTop;
 						if(backTop == 0) {
 							clearInterval(timer);
 						}

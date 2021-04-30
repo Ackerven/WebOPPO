@@ -88,13 +88,13 @@ a {
 }
 /*页面导航栏*/
 #nav {
-    height: 90px;
+    height: 70px;
     background-color: #EEEEEE;
 }
 #nav li {
     float: left;
     margin: 0 15px;
-    line-height: 90px;
+    line-height: 70px;
 }
 #nav li a{
     color: #666666;
@@ -531,4 +531,18 @@ a {
 }
 #footer p a:hover {
     color: #00925F;
+}
+/*返回顶部*/
+#toTop {
+    width: 83px;
+    height: 77px;
+    position: fixed;
+    right: 0;
+    bottom: 10px;
+}
+#btn {
+    width: 83px;
+    height: 77px;
+    background: url("../img/totop.png") no-repeat;
+    border-radius: 10px;
 }
