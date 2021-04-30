@@ -42,6 +42,8 @@
 		</style>
 	</head>
 	<body>
+<!--		页面最顶部-->
+		<div id="headerTop"></div>
 <!--		页面顶部-->
 		<div id="top" >
 			<div class="container"></div>
@@ -383,6 +385,10 @@
 				</p>
 			</div>
 		</div>
+<!--		返回顶部-->
+		<div id="totop">
+			<a href="javascript:;" id="btn"></a>
+		</div>
 		<script type="text/javascript" src="./js/swiper.js" ></script>
 		<script type="text/javascript" src="./js/jquery-1.11.3.js" ></script>
 		<script type="text/javascript" src="./js/index.js" ></script>
@@ -405,6 +411,28 @@
 					shadowScale: 0.94
 				}
 			});
+		</script>
+		<script type="text/javascript" >
+			//页面加载后执行
+			window.onload = function () {
+				//找到页面中的按钮
+				var toTop = document.getElementById("btn");
+				var timer = null;
+				//给按钮绑定点击事件
+				toTop.onclick = function () {
+					//周期性定时器
+					timer = setInterval(function (){
+						//获取滚动条距离浏览器顶端的距离
+						var backTop = document.documentElement.scrollTop || document.body.scrollTop;
+						//越滚越慢
+						var speedTop = backTop / 5;
+						document.documentElement.scrollTop -= backTop - speedTop;
+						if(backTop == 0) {
+							clearInterval(timer);
+						}
+					},30);
+				}
+			}
 		</script>
 	</body>
 </html>
