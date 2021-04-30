@@ -417,6 +417,7 @@
 			window.onload = function () {
 				//找到页面中的按钮
 				var toTop = document.getElementById("btn");
+				toTop.style.display = "none";
 				var timer = null;
 				//给按钮绑定点击事件
 				toTop.onclick = function () {
@@ -431,6 +432,17 @@
 							clearInterval(timer);
 						}
 					},30);
+				}
+				//设置临界值
+				var pageHeight = 700;
+				//按键是否显示功能
+				window.onscroll = function() {
+					var backTop = document.documentElement.scrollTop || document.body.scrollTop;
+					if(backTop > pageHeight) {
+						toTop.style.display = "block";
+					} else {
+						toTop.style.display = "none";
+					}
 				}
 			}
 		</script>
